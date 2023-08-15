@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(218, 217, 217);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    border: 5px solid;
+    background-color: rgb(248, 233, 25);
+}
+td{
+    padding: 10px;
+    border: 1px solid;
+}
+th{
+    border: 2px solid;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    width: 200px;
+    height: 241px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+button{
+    background-color: rgb(233 232 28);
+    color: #6a6a6a;
+    border: 2px solid rgb(0 0 0);
+    height: 63px;
+    font-size: 50PX;
+    border-radius: 20px;
+    width: 60px;
+    cursor: pointer;
+}
